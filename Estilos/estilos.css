@@ -1,0 +1,215 @@
+    /* display en principal para que no se vaya en bloque tras bloque */
+.contenedorPrincipal{
+    height: 10vh;
+    max-width: 100vw;
+    display: flex;
+    border-bottom:2px  solid black;
+    
+    background-color: greenyellow
+
+}
+.contenedorPrimario{
+    height:100%;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:coral */
+}
+.imagen{
+    height:100%;
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkmagenta */
+}
+.imagen img{
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 1000rem;
+    /* background-color: forestgreen; */
+}
+.titulo{
+    height:100% ;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    /* background-color:darkcyan */
+}
+
+.titulo h1{
+    font-size:1.6rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.contenedorSecundario{
+    height: 100%;
+    width:60%;
+    display: flex;
+    /* background-color: cornflowerblue; */
+}
+
+.cajalink{
+    height:100% ;
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color:lightgreen */
+}
+
+.link{
+    height:100% ;
+    width:100% ;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color:crimson */
+}
+
+.link ul{
+   height: 100%;
+   width: 30rem;
+   display: flex;
+   align-items: center;
+
+   /* background-color: burlywood; */
+}
+
+.link ul li{
+    margin-left: 2rem;
+}
+
+.link ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+
+}
+.cajaredes{
+    height:100% ;
+    width: 30%;
+    /* background-color: darkgreen */
+}
+
+.redes{
+    height:100% ;
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    /* background-color: fuchsia; */
+}
+
+.redes ul{
+    height: 100%;
+    width: 30rem;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    /* background-color:cornflowerblue ; */
+}
+
+.redes ul li {
+    margin-left: 0.3rem;
+    height:2rem ;
+    width:2rem ;
+    /* background-color: darkblue; */
+}
+
+.redes ul li a{
+    height: 100%;
+    width: 100%;
+}
+.redes ul li a img{
+    height:100% ;
+    width: 100%;
+    object-fit: contain;
+}
+.contenedor2{
+    display: flex;
+    min-height: 80vh;
+    width: 100vw;
+    /* background-color: rgb(54, 45, 177) */
+}
+/* .contenedor2 article{
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+} */
+.seccion{
+    height:90vh ;
+    width: 100%;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background-color:cornflowerblue */
+}
+.seccion h1{    
+    height:5vh;
+    width:100vw ;
+    padding-top: 1rem;
+    /* padding-left: 1rem; */
+    /* background-color: brown; */
+    font-size: 1.4rem;
+}
+.card{
+    height:31rem;
+    width:22rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin: 0 auto;
+    border-radius: 1rem;
+    transition: transform 0.5s ease;
+}
+.card img{
+    height:20rem;
+    width:20rem ;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 1rem;
+    
+    /* background-color:darkkhaki */
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-contenido{
+    height:10rem ;
+    width:20rem ;
+    margin-top: 0.2rem;
+    /* background-color:gold ; */
+}
+.card-titulo{
+    height: 1.5rem;
+    width:4rem;
+    /* background-color:hotpink ; */
+}
+.card-descripcion{
+    height:8rem ;
+    width:20rem ;
+    /* background-color:lawngreen ; */
+    margin-top: 0.4rem;
+}
+.pie-de-pagina{
+    padding: 0;
+    height:6vh ;
+    max-width:100vw ;
+    text-align: center;
+    /* padding: 10px 0; */
+    /* position: fixed; */
+    width: 100%;
+    /* bottom: 0; */
+    background-color:chartreuse
+}
+
+
+
